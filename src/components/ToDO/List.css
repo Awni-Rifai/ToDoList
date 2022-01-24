@@ -1,0 +1,72 @@
+.ToDOList__list{
+    margin: auto;
+    width: 70%;
+
+}
+.ToDOList__list ul{
+    list-style-type: none;
+}
+.ToDOList__list ul li{
+    display: inline-block;
+    margin-bottom: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 0.5rem 0.8rem ;
+    border-radius: 2rem;
+    background-color: rgba(255, 160, 122,0.5);
+    word-wrap: break-word;
+    line-break: auto;
+    width: 90%;
+      
+}
+.fa-trash-alt{
+    float: right;
+}
+.fa-check-circle{
+    
+   color: rgb(96, 211, 96);
+   font-size: 1.1rem;
+   margin-right: 0.5rem;
+  
+   
+}
+
+.fa-edit{
+    float: right;
+    color: rgb(153, 109, 28);
+    transition: 0.2s ease-in-out;
+}
+.fa-edit:hover{
+    cursor: pointer;
+    color:rgb(119, 86, 26); ;
+}
+.done__btn{
+    display: inline-block;
+    background-color: initial;
+    border: none;
+    
+
+}
+.done__btn .fa-check-circle{
+    color: black;
+    font-size: 1.2rem;
+
+
+}
+.edit__btn{
+    float: right;
+    background-color: initial;
+    border: none;
+    padding: 0.5rem 0.2rem;
+}
+.edit__btn .fa-check-circle{
+    color: black;
+}
+.edit__field{
+    border: none;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 0.5rem ;
+    width: 80%;
+    border-radius: 1rem;
+
+
+}

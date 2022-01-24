@@ -1,0 +1,61 @@
+.Expense{
+    position: initial;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: auto;
+    margin-top: 8rem;
+    width: 50%;
+    padding: 2rem 1rem;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+    
+
+}
+.Expense__btns{
+    display: block;
+    margin:1rem auto;
+    
+    width: 40%;
+}
+.Expense button{
+    padding: 0.5rem 1rem;
+    background-color: inherit;
+    border-radius: 1rem;
+    margin: 0 1rem;
+}
+.Expense h1{
+    text-align: center;
+}
+.Expense__input{
+    width: 40%;
+    margin: auto;
+    height: 1.8rem;
+    /* background-color: rgba(0, 0, 0, 0.2);
+    color:white; */
+    font-weight: bold;
+    background-color: inherit;
+
+    
+    
+}
+.Expense__input:first-child{
+    border: 3px solid red;
+}
+.Expense__input.income{
+    border: 3px solid green;
+}
+ .Expense__income__group,.Expense__expense__group  {
+    width: 100%;
+    margin: 2rem 0;
+    text-align: center;
+}
+.Expense__total{
+    width: 4rem;
+    height: 4rem;
+    padding: 1.2rem 0;
+    margin: auto;
+    
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid black;
+
+}

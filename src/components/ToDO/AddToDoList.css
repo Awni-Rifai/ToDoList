@@ -1,0 +1,11 @@
+.AddToDoList_form{
+    margin: auto;
+    width: 50%;
+    height: 22%;
+    padding: 2% 2%;
+}
+.AddToDoList_form>input{
+    width: 80%;
+    height: 100%;
+    
+}
